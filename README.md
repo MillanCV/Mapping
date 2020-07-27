@@ -14,8 +14,11 @@ Set of resources and projecs about maps
     - 4326 - wGS : coordinates are degrees/ this is oriented to local projections
       - 326 for northern hemysphere and search a zone
     - If you don't want to deal with local projections choose wsg pseudo mercator   
+    - ETRS89/UTM zone 29N.If you search spanish maps in the national system the normal CRS is 
 - In the browser/XYZ tiles you can add OpenStreetMap to your map
 - A convenient way to experiment with data is to create a temporary scratch layer, which will be deleted when the program session extinguish.
   - By defaul it is created in edit mode
   - You can edit it drawing polygons and editing them. 
   - Don't forget to save changes in temporary layers or/and converting them in permanent
+-The attribute table allows to add field to every vector in a layer and use that field to display info
+    - Layer data is storaged on its owns package without style data
